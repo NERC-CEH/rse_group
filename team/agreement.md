@@ -4,7 +4,7 @@ _Draft - very much up for revision and renewal as the team grows! Intended as a 
 
 ## Who we are
 
-* Refer to RSE Governance outline for a "mission statement" type sentence. Briefly cover how we accept work and what criteria are used 
+* Refer to RSE Governance outline for a "mission statement" type sentence. Briefly cover how we accept work and what criteria are used in deciding what we accept. 
 
 ## Team Success
 
@@ -12,7 +12,8 @@ _Draft - very much up for revision and renewal as the team grows! Intended as a 
     * FDRI implementation
     * National Capability programmes
     * Sustainable emerging technologies
-    * Training and co-development for collaborative science
+    * Training and co-development for collaborative science ("excellent and impactful")
+    * Engagement with national and international RSE communities
 
 * How we define goals in collaboration with stakeholders (Group leaders, research collaborators)
 * How we would like our work to be measured and evaluated - "what's the impact we're trying to have, and how is our progress towards that goal".
