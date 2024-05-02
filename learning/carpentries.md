@@ -21,10 +21,17 @@ Software Sustainability Institute are the main Carpentries partner in the UK
 
 ### Python programming
 
-* http://swcarpentry.github.io/python-novice-gapminder - novice intro focused on visualisation
+* [Plotting and programming with python](http://swcarpentry.github.io/python-novice-gapminder) - novice intro focused on visualisation
 
-* https://carpentries-incubator.github.io/python-intermediate-development/ - Intermediate python development (layout, testing and packaging; developing technique)
+* [Intermediate python development](https://carpentries-incubator.github.io/python-intermediate-development/) - (style, testing and packaging; developing technique)
 
 ### R programming
 
-* R programming introduction https://bham-carpentries.github.io/R-course-material/
+* [Introduction to R programming](https://bham-carpentries.github.io/R-course-material/)
+
+### Packaging 
+
+* [R packaging](https://carpentries-incubator.github.io/lesson-R-packaging/introduction.html)
+
+* [Introduction to conda for data scientists](https://edcarp.github.io/introduction-to-conda-for-data-scientists/)
+
