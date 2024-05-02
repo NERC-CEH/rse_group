@@ -35,3 +35,6 @@ Software Sustainability Institute are the main Carpentries partner in the UK
 
 * [Introduction to conda for data scientists](https://edcarp.github.io/introduction-to-conda-for-data-scientists/)
 
+## Carpentries communities
+
+[Edinburgh carpentries](https://edcarp.github.io/)
