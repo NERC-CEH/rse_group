@@ -12,12 +12,18 @@ Software Sustainability Institute are the main Carpentries partner in the UK
 
 * [SSI info on Carpentries partnership](https://www.software.ac.uk/our-training-services/our-partnership-carpentries)
 
+## Next steps
+
+* Pathway to Instructor Training - support for making the instructor training available to every CEH developer who is interested in taking on some workshops
+* Introduction to the RSE Community from the Software Sustainability Institute - arrange an invited talk (from Giacomo Peru and/or colleagues) with the new UKCEH RSE group, and other interested parties
+* Run a workshop! Minimum necessary signup and environment in place to pilot a workshop at a UKCEH site, ideally in-person. Source control introduction could be a good starter workshop.
+
 
 ## Topics to cover
 
 ### Git and version control
-* https://swcarpentry.github.io/git-novice/ - novice intro oriented to programmers
-* https://librarycarpentry.org/lc-git/ - novice intro oriented to information managers
+* [Git for novices](https://swcarpentry.github.io/git-novice/) - A novice introduction to working with version control, oriented to research developers
+* [Library Carpentry Introduction to Git](https://librarycarpentry.org/lc-git/) - novice introduction to version control more oriented to information managers
 
 ### Python programming
 
@@ -38,3 +44,6 @@ Software Sustainability Institute are the main Carpentries partner in the UK
 ## Carpentries communities
 
 [Edinburgh carpentries](https://edcarp.github.io/)
+
+
+
