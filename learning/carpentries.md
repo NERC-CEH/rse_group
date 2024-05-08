@@ -33,7 +33,8 @@ Software Sustainability Institute are the main Carpentries partner in the UK
 
 ### R programming
 
-* [Introduction to R programming](https://bham-carpentries.github.io/R-course-material/)
+* [Introduction to R programming](https://bham-carpentries.github.io/R-course-material/) 
+* [Library Carpentry Introduction to R](https://librarycarpentry.org/lc-r/) - oriented to librarians and data managers
 
 ### Packaging 
 
