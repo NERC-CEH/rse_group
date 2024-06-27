@@ -1,0 +1,27 @@
+# http://www.graphviz.org/content/cluster
+
+
+digraph G {
+    
+  bgcolor=transparent;
+  node [fontname = "Handlee"];
+  edge [fontname = "Handlee"];
+
+  
+  starting [ label = "Concept" shape=diamond];
+  pm_support [ label = "PM support" shape=diamond];
+  funded [ label = "Is it funded?" ];
+  fund_ext [label="Externally?"];
+  fund_int [label="Internally?"];
+  fund_yet [label="Not yet?"];
+  
+  starting -> funded;
+  
+  funded -> fund_ext;
+  funded -> fund_int;
+  funded -> fund_yet;
+  fund_int -> pm_support;
+  fund_ext -> pm_support;
+
+}
+
