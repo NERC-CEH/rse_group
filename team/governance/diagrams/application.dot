@@ -1,0 +1,31 @@
+# http://www.graphviz.org/content/cluster
+
+
+digraph G {
+    
+  bgcolor=transparent;
+  node [fontname = "Handlee"];
+  edge [fontname = "Handlee"];
+  
+  application [ label="Application" shape=diamond];
+  is_complete [ label="Is it complete?"]
+  complete_yes [label="Yes"]
+  complete_no [label="No"]
+  committee [label="Science Committee" shape=diamond]
+  timeline_ok [label="Resources fit the timeline?"]
+  timeline_yes [label="Yes"]
+  timeline_no [label="No"]
+  exco_hr [label="ExCo / HR conversation" shape=diamond]
+
+  application -> is_complete;
+  is_complete -> complete_yes;
+  is_complete -> complete_no;
+  complete_no -> application;
+  
+  complete_yes -> timeline_ok;
+  timeline_ok -> timeline_yes;
+  timeline_ok -> timeline_no;
+  timeline_no -> exco_hr
+  timeline_yes -> committee;
+ 
+}
