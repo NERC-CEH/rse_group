@@ -1,0 +1,32 @@
+# http://www.graphviz.org/content/cluster
+
+
+digraph G {
+    
+  bgcolor=transparent;
+  node [fontname = "Handlee"];
+  edge [fontname = "Handlee"];
+  
+  enquiry [ label="Enquiry" shape=diamond];
+  logged_once [ label="Logged FAIRly"];
+  make_forum [label="Make a forum"];
+  review_discussion [label="Review discussion"]
+  ready [label="Ready to apply?"]
+  needs_work [label="Needs work?"]
+  criteria [label="Fits the criteria?"]
+  not_really [label="Not really"]
+  application [ label="Application" shape="diamond"]
+  log_decision [label="Log decision" shape="diamond"]
+  
+  enquiry -> logged_once;
+  logged_once -> make_forum;
+  make_forum -> review_discussion;
+  review_discussion -> criteria;
+  criteria -> ready;
+  criteria -> needs_work;
+  criteria -> not_really;
+  needs_work -> review_discussion;
+
+  ready -> application;
+  not_really -> log_decision;
+}
