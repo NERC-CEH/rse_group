@@ -14,6 +14,15 @@ digraph G {
   fund_ext [label="Externally?"];
   fund_int [label="Internally?"];
   fund_yet [label="Not yet?"];
+  extra_support [label="What are you looking for?"]
+  help_write [label="Help with grantwriting"]
+  help_tech [label="Technical advice"]
+  help_consult [label="Consultancy"]
+  skills_dev [label="Skills development"]
+  debug_fix [label="Debugging and repair"]
+  go_to_it [label="Go to IT channels", shape=diamond]
+  help_unknown_1 [label="???" shape=diamond]
+  help_unknown_2 [label="???" shape=diamond]
   
   starting -> funded;
   
@@ -23,5 +32,19 @@ digraph G {
   fund_int -> pm_support;
   fund_ext -> pm_support;
 
+  fund_yet -> extra_support;
+  extra_support -> help_write;
+  extra_support -> help_tech;
+  extra_support -> help_consult;
+  
+  help_tech -> skills_dev;
+  help_tech -> debug_fix;
+  debug_fix -> go_to_it;
+  
+  help_write -> pm_support;
+  help_consult -> help_unknown_1;
+  skills_dev -> help_unknown_2;
+  
 }
+
 
