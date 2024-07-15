@@ -1,5 +1,3 @@
-# http://www.graphviz.org/content/cluster
-
 
 digraph G {
     
@@ -7,26 +5,21 @@ digraph G {
   node [fontname = "Handlee"];
   edge [fontname = "Handlee"];
   
-  enquiry [ label="Enquiry" shape=diamond];
-  logged_once [ label="Logged FAIRly"];
-  make_forum [label="Make a forum"];
-  review_discussion [label="Review discussion"]
-  ready [label="Ready to apply?"]
-  needs_work [label="Needs work?"]
-  criteria [label="Fits the criteria?"]
-  not_really [label="Not really"]
-  application [ label="Application" shape="diamond"]
-  log_decision [label="Log decision" shape="diamond"]
+  enquiry [ label="Enquiry"];
+  logged_once [ label="Logged FAIRly" shape=rectangle];
+  make_forum [label="Make a forum" shape=rectangle];
+  review_discussion [label="Review discussion" shape=rectangle]
+  criteria [label="Fits the criteria?" shape=diamond]
+  
+  application [ label="Application"]
+  log_decision [label="Log decision"]
   
   enquiry -> logged_once;
   logged_once -> make_forum;
   make_forum -> review_discussion;
   review_discussion -> criteria;
-  criteria -> ready;
-  criteria -> needs_work;
-  criteria -> not_really;
-  needs_work -> review_discussion;
+  criteria -> application[label="Ready?"];
+  criteria:ne -> review_discussion[label="Needs work?"];
+  criteria -> log_decision [label="Not really"];
 
-  ready -> application;
-  not_really -> log_decision;
 }

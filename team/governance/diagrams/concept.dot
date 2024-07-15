@@ -1,6 +1,3 @@
-# http://www.graphviz.org/content/cluster
-
-
 digraph G {
     
   bgcolor=transparent;
@@ -8,43 +5,29 @@ digraph G {
   edge [fontname = "Handlee"];
 
   
-  starting [ label = "Concept" shape=diamond];
-  pm_support [ label = "PM support" shape=diamond];
-  funded [ label = "Is it funded?" ];
-  fund_ext [label="Externally?"];
-  fund_int [label="Internally?"];
-  fund_yet [label="Not yet?"];
-  extra_support [label="What are you looking for?"]
-  help_write [label="Help with grantwriting"]
-  help_tech [label="Technical advice"]
-  help_consult [label="Consultancy"]
-  skills_dev [label="Skills development"]
-  debug_fix [label="Debugging and repair"]
-  go_to_it [label="Go to IT channels", shape=diamond]
-  help_unknown_1 [label="???" shape=diamond]
-  help_unknown_2 [label="???" shape=diamond]
+  starting [ label = "Concept"];
+  pm_support [ label = "PM support"];
+  funded [ label = "Is it funded?" shape=diamond ];
+  extra_support [label="What are you looking for?" shape=diamond]
+  help_tech [label="Type?" shape=diamond]
+  go_to_it [label="Go to IT channels"]
+  offered [label="Is this within RSE scope?" shape=diamond]
+  proposal[label="Proposal for future RSE capability"]
   
   starting -> funded;
   
-  funded -> fund_ext;
-  funded -> fund_int;
-  funded -> fund_yet;
-  fund_int -> pm_support;
-  fund_ext -> pm_support;
+  funded -> pm_support[label="Externally?"];
+  funded -> pm_support[label="Internally?"];
+  funded -> extra_support[label="Not yet?"];
 
-  fund_yet -> extra_support;
-  extra_support -> help_write;
-  extra_support -> help_tech;
-  extra_support -> help_consult;
+  extra_support:w -> pm_support[label="Help with grantwriting"];
+  extra_support -> help_tech[label="Technical support"];
+  extra_support:e -> offered[label="Consultancy"];
   
-  help_tech -> skills_dev;
-  help_tech -> debug_fix;
-  debug_fix -> go_to_it;
+  help_tech -> offered[label="Skills development"];
+  help_tech -> go_to_it[label="Debugging and repair"];
   
-  help_write -> pm_support;
-  help_consult -> help_unknown_1;
-  skills_dev -> help_unknown_2;
+  offered -> pm_support[label="Yes"]
+  offered -> proposal[label="No"]
   
 }
-
-
