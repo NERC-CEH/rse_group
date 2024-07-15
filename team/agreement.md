@@ -6,7 +6,7 @@ _Draft - very much up for revision and renewal as the team grows! Intended as a 
 
 * Refer to RSE Governance outline for a "mission statement" type sentence. Briefly cover how we accept work and what criteria are used in deciding what we accept. 
 
-## Team Success
+## Team Goals
 
 * How our programme of work lines up with objectives and strategy for UKCEH
     * FDRI implementation
@@ -27,3 +27,10 @@ _Draft - very much up for revision and renewal as the team grows! Intended as a 
 * Visibility outside the group (research communities, internal and external to UKCEH)
 * Communications norms (where documentation lives, where text chat happens)
 
+## Communication
+* Standards of communication within the group, those in the organisation those externally.
+* Expectations around tools used.
+* How meetings will be managed.
+
+## Evolution
+* How we plan to ensure things evolve and develop going forward.
