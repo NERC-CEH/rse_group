@@ -15,9 +15,11 @@ If you do it formally, there are rules:
 The formal rules don't always work well in a research setting where there are a lot of speculative decisions to be made, different paths to go a short way down, and often complex dependencies. Here are some rules of thumb developed in different settings of mob programming with a mixed group of software engineers and researchers.
 
 * Keep the group size to no more than 4, ideally 3 - larger than this, and people tend to drift off.
-* When starting a new project or onboarding a new person, allow a whole session for environment setup
-* Sessions work well at a length of 1.5-2 hours
-* Don't spend more than half a working day mobbing (typically 10:30-12:00, 2:00-4:00) or it can get cognitively exhausting
+* Try to rotate the screenshare at least every 20 minutes to help keep everyone engaged, though there may be some settings where it makes sense for the least experienced person to "drive" the whole way through
+* When starting a new project or onboarding a new person, allow at least a whole session for environment setup
+* Sessions work well at a length of 1.5-2 hours, including a screenbreak; screenbreaks are important!
+* The practise works well remotely, probably better than it does in-person (opinions may vary)
+* Limit time spent mobbing to half a working day (typically 10:30-12:00, 2:00-4:00) or it can get cognitively exhausting; plan for quiet days
 * Articulate shared intentions at the start of the session - where are we aiming to be at the end of it? It helps to take a note for the benefit of people who can't be there.
 * Mob sessions are "best effort" and no-one should feel obliged to participate in them
 * It's ok to spend whole sessions just reading code or papers together. 
