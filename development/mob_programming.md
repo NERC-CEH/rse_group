@@ -18,8 +18,8 @@ The formal rules don't always work well in a research setting where there are a 
 
 * Keep the group size to no more than 4, ideally 3 - larger than this, and people tend to drift off.
 * Try to rotate the screenshare at least every 20 minutes to help keep everyone engaged, though there may be some settings where it makes sense for the least experienced person to "drive" the whole way through
-* When starting a new project or onboarding a new person, allow at least a whole session for environment setup
 * Sessions work well at a length of 1.5-2 hours, including a screenbreak; screenbreaks are important!
+* When starting a new project or onboarding a new person, allow at least a whole session for environment setup
 * The practise works well remotely, probably better than it does in-person (opinions may vary)
 * Limit time spent mobbing to half a working day (typically 10:30-12:00, 2:00-4:00) or it can get cognitively exhausting; plan for quiet days
 * Articulate shared intentions at the start of the session - where are we aiming to be at the end of it? It helps to take a note for the benefit of people who can't be there.
