@@ -4,6 +4,8 @@
 
 [mobprogramming.org](https://mobprogramming.org/) describes it as "All the brilliant people working on the same thing, at the same time, in the same space, and on the same computer". These words are from Woody Zuill, one of the folks behind the original Agile Manifesto, who developed the practise as a way of recovering the _intention_ of agile software creation in a world of Scrum Coach certifications and process tooling. If you haven't done pair programming, then mob programming is more fun and easier (after a while).
 
+It can offer a great team onboarding and skills development experience; help avoid fruitless paths of overcomplex development by involving many perspectives; and offers a project focus for getting to know one another through code. I can recommend it to any team, and offer a set of rules of thumb for making it work for research teams with relatively open-ended aims and a mix of coding proficiency levels.
+
 There are some relatively formal rules for doing by-the-book mob programming.
 
 * One person is the _driver_, and they don't make any decisions about the code or configuration that's being written - it all comes via other peoples' heads
