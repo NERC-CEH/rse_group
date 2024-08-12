@@ -36,7 +36,7 @@ The [Recurse Center social rules](https://www.recurse.com/social-rules) apply; k
 Experience also says that starting to mob program with a new team can be a painful experience, what can happen is 
 
 * Really experienced contributors can feel hobbled
-* People without much background can feel a bit lost
+* People without much background in coding can feel a bit lost
 * Delivery can feel _much_ slower than hammering something out on one's own
 
 Remember that you are optimising for learning rather than delivery in the early stages; as a [mob programming coach](https://code.joejag.com/2018/how-i-learned-mobbing.html) in Glasgow put it, lifting from an African proverb, *If you want to go fast, go alone; if you want to go far, go together*
