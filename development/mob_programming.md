@@ -4,11 +4,13 @@
 
 [mobprogramming.org](https://mobprogramming.org/) describes it as "All the brilliant people working on the same thing, at the same time, in the same space, and on the same computer". These words are from Woody Zuill, one of the folks behind the original Agile Manifesto, who developed the practise as a way of recovering the _intention_ of agile software creation in a world of Scrum Coach certifications and process tooling. If you haven't done pair programming, then mob programming is more fun and easier (after a while).
 
-If you do it formally, there are rules:
+There are some relatively formal rules for doing by-the-book mob programming.
 
-* One person is the _driver_, and they don't make any decisions about the code or configuration that's being written
-* Another may be nominated as the _navigator_, primarily making the suggestions, or feedback may come from the whole group
-* The driver rotates in quite short periods, 5 to 10 minutes
+* One person is the _driver_, and they don't make any decisions about the code or configuration that's being written - it all comes via other peoples' heads
+* Another may be nominated as the _navigator_, primarily making the suggestions, or feedback may come negotiated from the whole group
+* The role of driver rotates in quite short periods, 5 to 10 minutes, so everyone gets a go both at making decisions and taking instructions, and everyone feels like they have a stake in the code!
+
+See this [tutorial walkthrough](https://www.baeldung.com/cs/mob-programming#bd-how-does-it-work) for an example of this classical approach - I've never done it this way apart from [in an intro workshop](https://ultrazool.gitlab.io/mobbing/) so can't speak to it well...
 
 ## Helping it work for research
 
