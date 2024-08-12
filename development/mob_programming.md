@@ -27,7 +27,7 @@ The formal rules don't always work well in a research setting where there are a 
 * Articulate shared intentions at the start of the session - where are we aiming to be at the end of it? It helps to take a note for the benefit of people who can't be there.
 * Mob sessions are "best effort" and no-one should feel obliged to participate in them
 * It's ok to spend whole sessions just reading code or papers together. 
-* Optimise mob sessions for work _where decisions need to be made_ - if a path of development is very clearly laid out, leave that available for team members who need to work asynchronously (e.g. they have caring commitments, or very different patterns of brain-waking times)
+* When mob sessions are not that frequent, it helps to devote them to work _where decisions need to be made_ - if a path of development is very clearly laid out, leave that available for team members who need to work asynchronously (e.g. they have caring commitments, or very different patterns of brain-waking times)
 
 The [Recurse Center social rules](https://www.recurse.com/social-rules) apply; kindness is key!
 
@@ -35,7 +35,7 @@ The [Recurse Center social rules](https://www.recurse.com/social-rules) apply; k
 
 Experience also says that starting to mob program with a new team can be a painful experience, what can happen is 
 
-* Really experienced contributors can feel hobbled
+* Really experienced contributors can feel a bit hobbled
 * People without much background in coding can feel a bit lost
 * Delivery can feel _much_ slower than hammering something out on one's own
 
