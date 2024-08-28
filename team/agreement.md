@@ -1,29 +1,30 @@
-# UKCEH RSE Team Agreement 
-
-_Draft - very much up for revision and renewal as the team grows! Intended as a one-page doc that every member of the team can have input into_
+# UKCEH RSE Team Agreement
+The following is a set of high-level, guiding principles that the Research Software Engineer (RSE) team has chosen to follow. All current members of the RSE team contributed to these principles, which are open to change and/or extension in the future.
 
 ## Who we are
+- We are research software engineers committed to developing open software solutions to support reproducible science at UKCEH.
+- In line with UKCEH's values of excellence, integrity and teamwork, we seek to understand the scientific activities we support to help build communities between teams at UKCEH.
 
-* Refer to RSE Governance outline for a "mission statement" type sentence. Briefly cover how we accept work and what criteria are used in deciding what we accept. 
+## Team Structure
+- We are a small team of 6 people across 3 UKCEH sites.
+- We are a flat team in structure - nobody's work, voice or ideas are more important than anyone else's.
 
-## Team Success
+## Management and Workflow   
+- We work on projects in accordance with our governance structure ()[Insert Link].
+- We operate in an agile way and are flexible and open to change in what we do and how we do things.
+- We continually look to adopt the latest software development tools and best practices in our workflow, including pair/mob programming and code reviews.
+- We help each other with our work and strive to collectively ensure all within the team are well supported.
 
-* How our programme of work lines up with objectives and strategy for UKCEH
-    * FDRI implementation
-    * National Capability programmes
-    * Sustainable emerging technologies
-    * Training and co-development for collaborative science ("excellent and impactful")
-    * Engagement with national and international RSE communities
+## Professional Development
+- We share knowledge with each other and everyone we work with. Continuous learning is critical to how we work.
+- We seek to find innovative ways to share our knowledge and enhance everyone's professional development in the organisation by building communities of practice and learning.
+- We ensure that we devote time each week to enhancing our skills through active learning, dissemination or contributing to open-source (Friday?).
 
-* How we define goals in collaboration with stakeholders (Group leaders, research collaborators)
-* How we would like our work to be measured and evaluated - "what's the impact we're trying to have, and how is our progress towards that goal".
- 
+## Communication
+- We are kind to each other and those we work with.
+- We use GitHub to discuss, track tasks, and collaborate (as well as stash code). Whatever we do, we seek to be open.
+- We recognise life happens - we will only schedule meetings inside core working hours (10am-12pm,2pm-4pm).
 
-## Ways of Working
-
-* Agile practises adopted from norms in EDS, to the extent possible
-* At least two RSEs to each project and no more than 2 simultaneous allocations (ideallu)
-* Check-ins amongst the group - how we keep one another involved in decisions when working on different things
-* Visibility outside the group (research communities, internal and external to UKCEH)
-* Communications norms (where documentation lives, where text chat happens)
-
+## Ethics
+- We will conduct ourselves in a way that aligns with UKCEH's core principles and upholds the highest standard of openness, fairness, and inclusivity in the workplace.
+- We will challenge unfair, unjust, or exploitative work practices and support each other and those we work with.
