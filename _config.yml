@@ -7,6 +7,6 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  metazool
 
 # Build settings
-theme: just-the-docs
+remote_theme: riggraz/no-style-please
 plugins:
   - jekyll-feed
