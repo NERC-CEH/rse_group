@@ -9,29 +9,36 @@ output: beamer_presentation
 
 ## Who we are
 
-* Background to ourselves
 * A group of people with various academic and software engineering backgrounds
-* MJB - Weather-gazer, occasional dancer, photographer, reader, human: https://mattjbr123.github.io/ (I've gone for the 'who I am when I'm not working' approach to start with!)
+* MJB - Weather-gazer, occasional dancer, photographer, reader, human: https://mattjbr123.github.io/ _(I've gone for the 'who I am when I'm not working' approach to start with!)_
+* JW - Mapper, hacker, choreographer, fitness instructor: https://github.com/metazool/ 
+* MC - Pool player, TBD
+* RL - Scout leader, TBD
+* AGS - TBD
+* JMR - TBD 
 
 ## Where we are 
 
-* Background to UKCEH
-* The "UK Centre for Ecology and Hydrology": Not-for-profit independent Research Org.
-* Focused on floods, droughts, biodiversity, pollution research, which involves lots of modelling!
-* Spread across 4 offices: Wallingford, Lancaster, Bangor, Edinburgh
+* The "UK Centre for Ecology and Hydrology"
+* Not-for-profit independent Research Org.
+* Focused on floods, droughts, biodiversity, pollution research
+* Lots of environmental monitoring and modelling!
+* Across 4 sites: Wallingford, Lancaster, Bangor, Edinburgh
 
 ## Why we're here
 
-* Aspirational vision from the governance docs
 * Generally: To help/guide/shape good software engineering practice in an academic setting
 * Specifically: Provide expertise to specific projects in the most appropriate way
+* Modelling, monitoring, data science and underlying Digital Research Infrastructure
+* Working on reusable components across different areas of environmental research  
 
 ## What we're aiming for
 
-* A bit about banner projects like NC-UK and FDRI
 * To not be seen as a "resource" or "pool", but as humans who can help
 * To make it easier for scientists to "make good decisions"/adopt good practices in projects heavily involving software/code
-* To shape the digital infrastructure being built as part of FDRI. The FDRI project aims to ease the process of finding and analysing hydrological data of clear provenance, so closely aligned with us
+* To shape the future national-scale digital infrastructure UKCEH is building
+* Floods and Droughts Resilience Infrastructure (find and reuse hydrological data)
+* National Capability UK (share, link and reuse environmental monitoring data)
 
 ## Roles and functions
 
