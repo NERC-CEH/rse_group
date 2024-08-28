@@ -10,3 +10,31 @@ There could be cases in which you've shared sensitive information during a proje
 
 If, for whatever good reason, you want to publish your project without its history then the "simplest" route is to make a local copy of it without the .git directory that stores its graph of changes, and create a new repository using that copy.
 
+### How do I read in gridded NetCDF files in R?
+
+An example, for 2D data:
+
+```
+# Load library
+library(ncdf4)
+
+# Define the filepath
+file <- "/path/to/file.nc"
+
+# Open the netCDF file for reading
+ncin <- nc_open(file)
+
+# Get coordinates
+X <- ncvar_get(ncin, "xcoordinatename")
+Y <- ncvar_get(ncin, "ycoordinatename")
+
+# Get data
+bla.array <- ncvar_get(ncin, "variablename")
+
+# Get units
+dunits <- ncatt_get(ncin, variablename, "units")
+
+# Set coordinates of data array (might have to switch 1 and 2 around)
+dimnames(bla.array)[[1]] <- X
+dimnames(bla.array)[[2]] <- Y
+```
