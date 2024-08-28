@@ -17,20 +17,21 @@ output: beamer_presentation
 
 * Background to UKCEH
 * The "UK Centre for Ecology and Hydrology": Not-for-profit independent Research Org.
-* Focused on floods, droughts, biodiversity, pollution research, which involves lots of modelling!
+* Focused on floods, droughts, biodiversity, pollution research, which involves lots of modelling and big-data analyses
 * Spread across 4 offices: Wallingford, Lancaster, Bangor, Edinburgh
 
 ## Why we're here
 
 * Aspirational vision from the governance docs
 * Generally: To help/guide/shape good software engineering practice in an academic setting
-* Specifically: Provide expertise to specific projects in the most appropriate way
+* Specifically: Provide expertise to specific projects in a way tailored to the needs of each
 
 ## What we're aiming for
 
 * A bit about banner projects like NC-UK and FDRI
 * To not be seen as a "resource" or "pool", but as humans who can help
 * To make it easier for scientists to "make good decisions"/adopt good practices in projects heavily involving software/code
+* To develop resources, such as template repositories, and guides as part of the above bullet point, based on our experiences
 * To shape the digital infrastructure being built as part of FDRI. The FDRI project aims to ease the process of finding and analysing hydrological data of clear provenance, so closely aligned with us
 
 ## Roles and functions
