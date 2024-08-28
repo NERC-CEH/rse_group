@@ -81,7 +81,7 @@ output: beamer_presentation
 * Balance of larger and smaller commitments
 * Staying aspirational while not putting people off
 * Finding ways to focus on longer term plans (like workshop/clinic series)
-* "How do I stay engaged and informed?"
+* "How do I stay engaged and informed?" - A common question to us!
 
 ## Thoughtful conclusion
 
