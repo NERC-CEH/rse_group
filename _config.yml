@@ -1,0 +1,12 @@
+title: Plankton ML / pipelines
+email: jowals@ceh.ac.uk
+description: >- # this means to ignore newlines until "baseurl:"
+  This repository contains code, proof of concepts, test cases and workflows for low-investment methods to apply image machine learning to plankton characterisation.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  metazool
+
+# Build settings
+theme: just-the-docs
+plugins:
+  - jekyll-feed
