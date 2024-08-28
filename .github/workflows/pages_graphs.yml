@@ -34,7 +34,7 @@ jobs:
         JEKYLL_ENV: production
     - uses: ts-graphviz/setup-graphviz@v2
     - name: Diagrams
-      run: chmod +x ../scripts/render_diagrams.sh; bash ../scripts/render_diagrams.sh
+      run: chmod +x ./scripts/render_diagrams.sh; bash ./scripts/render_diagrams.sh
     - name: Upload artifact
       # Automatically uploads an artifact from the './_site' directory by default
       uses: actions/upload-pages-artifact@v1
