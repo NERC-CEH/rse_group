@@ -16,8 +16,8 @@ output: beamer_presentation
 ## Where we are 
 
 * Background to UKCEH
-* The "UK Centre for Ecology and Hydrology": Independent Research Org. w/ charitable status
-* Focused on floods, droughts, biodiversity research
+* The "UK Centre for Ecology and Hydrology": Not-for-profit independent Research Org.
+* Focused on floods, droughts, biodiversity, pollution research, which involves lots of modelling!
 * Spread across 4 offices: Wallingford, Lancaster, Bangor, Edinburgh
 
 ## Why we're here
@@ -30,12 +30,13 @@ output: beamer_presentation
 
 * A bit about banner projects like NC-UK and FDRI
 * To not be seen as a "resource" or "pool", but as humans who can help
-* To make it easier for scientists to "make good decisions" in projects heavily involving software/code
-* To shape the digital infrastructure being built as part of FDRI
+* To make it easier for scientists to "make good decisions"/adopt good practices in projects heavily involving software/code
+* To shape the digital infrastructure being built as part of FDRI. The FDRI project aims to ease the process of finding and analysing hydrological data of clear provenance, so closely aligned with us
 
 ## Roles and functions
 
-* Context of lots of RSEs or RSE-adjacent attached to groups or projects
+* Context of lots of RSEs or RSE-adjacents attached to groups or projects
+* Flat team structure
 
 ## Culture building
 
