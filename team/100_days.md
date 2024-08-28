@@ -21,7 +21,7 @@ output: beamer_presentation
 
 * The "UK Centre for Ecology and Hydrology"
 * Not-for-profit independent Research Org.
-* Focused on floods, droughts, biodiversity, pollution research
+* Focused on floods, droughts, biodiversity, pollution research `---- suggestions: * Strategic delivery partner for the Natural Environment Research Council (NERC). Research across 6 science disciplines: Atmospheric chemistry, Biodiversity, Hydro-climate risks, Pollution, Soils and land use and Water resources https://www.ceh.ac.uk/sites/default/files/UKCEH-Strategy2025.pdf. * The Environmental Information Data Centre (EIDC) (one of the NERC's network of environmental data centres) is hosted by UKCEH. `
 * Lots of environmental monitoring and modelling!
 * Across 4 sites: Wallingford, Lancaster, Bangor, Edinburgh
 
@@ -38,14 +38,15 @@ output: beamer_presentation
 * To make it easier for scientists to "make good decisions"/adopt good practices in projects heavily involving software/code
 * To develop resources, such as template repositories, and guides as part of the above bullet point, based on our experiences
 * To shape the future national-scale digital infrastructure UKCEH is building
-* Floods and Droughts Resilience Infrastructure (find and reuse hydrological data)
-* National Capability UK (share, link and reuse environmental monitoring data)
+* Floods and Droughts Resilience Infrastructure (find and reuse hydrological data) ` ---  resilient and sustainable DRI ?? FDRI is one of the projects under DRI`
+* National Capability UK (share, link and reuse environmental monitoring data) `---- suggestions: * National Capability for freshwater, terrestrial and atmosphere science - support researchers, 
+governments, business and society. https://www.ceh.ac.uk/our-science/our-national-role. Our innovation portfolio https://www.ceh.ac.uk/our-science/innovation`
 
 ## Roles and functions
 
 * Lots of people in RSE or RSE-like roles, attached to groups or projects
 * First attempt by UKCEH to build a central group - hired six of us at once!
-* Our area of the org has social scientists, data scientists, devops specialists
+* Our area of the org has social scientists, data scientists, devops specialists `-----Environmental scientists, UX researchers, semantics experts?`
 * Flat team structure, trying to be conscious about communications norms 
 
 ## Culture building
