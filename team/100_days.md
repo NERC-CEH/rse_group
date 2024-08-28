@@ -10,18 +10,28 @@ output: beamer_presentation
 ## Who we are
 
 * Background to ourselves
+* A group of people with various academic and software engineering backgrounds
+* MJB - Weather-gazer, occasional dancer, photographer, reader, human: https://mattjbr123.github.io/ (I've gone for the 'who I am when I'm not working' approach to start with!)
 
 ## Where we are 
 
 * Background to UKCEH
+* The "UK Centre for Ecology and Hydrology": Independent Research Org. w/ charitable status
+* Focused on floods, droughts, biodiversity research
+* Spread across 4 offices: Wallingford, Lancaster, Bangor, Edinburgh
 
 ## Why we're here
 
 * Aspirational vision from the governance docs
+* Generally: To help/guide/shape good software engineering practice in an academic setting
+* Specifically: Provide expertise to specific projects in the most appropriate way
 
 ## What we're aiming for
 
 * A bit about banner projects like NC-UK and FDRI
+* To not be seen as a "resource" or "pool", but as humans who can help
+* To make it easier for scientists to "make good decisions" in projects heavily involving software/code
+* To shape the digital infrastructure being built as part of FDRI
 
 ## Roles and functions
 
@@ -43,7 +53,7 @@ output: beamer_presentation
 
 ## Moving to the open
 
-* "How do we communicate"
+* "How do we communicate" - default to open?
 * Handbooks, common patterns
 * How many RSE groups' needs are the same
 
