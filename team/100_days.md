@@ -43,12 +43,14 @@ output: beamer_presentation
 
 ## Roles and functions
 
-* Context of lots of RSEs or RSE-adjacents attached to groups or projects
-* Flat team structure
+* Lots of people in RSE or RSE-like roles, attached to groups or projects
+* First attempt by UKCEH to build a central group - hired six of us at once!
+* Our area of the org has social scientists, data scientists, devops specialists
+* Flat team structure, trying to be conscious about communications norms 
 
 ## Culture building
 
-* Ourselves (team agreement)
+* Ourselves - drafting a Team Agreement
 * Our collaborators (EDS, Discussions)
 * Our communities ()
 * Our networks (groups in parallel orgs, local interest communities)
@@ -62,19 +64,28 @@ output: beamer_presentation
 
 ## Moving to the open
 
-* "How do we communicate" - default to open?
-* Handbooks, common patterns
-* How many RSE groups' needs are the same
+* "How do we communicate" - default to open, and press for that.
+* A shared repository mainly used for threaded Discussions
+* Daily short, informal standups - text updates first, chat about common ground
+* Weekly catchup with management, 5-10 mins devoted to writing
+* Started out with "weeknotes" but they're hard to sustain
+* https://github.com/NERC-CEH/rse_group/
+
+## Learning from other RSE cultures
+* Many groups have "handbooks" of common patterns
+* Not looking for one standard, but lots more examples!
+* How many RSE groups' needs are the same? 
 
 ## Being welcoming
 
 * Balance of larger and smaller commitments
 * Staying aspirational while not putting people off
 * Finding ways to focus on longer term plans (like workshop/clinic series)
+* "How do I stay engaged and informed?"
 
 ## Thoughtful conclusion
 
 * We have a lot more questions than we have answers
-* We want to find the common ground
+* We want to find common ground with similar groups
 * Talk to us! (pictures of everyone)
 
