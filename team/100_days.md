@@ -77,6 +77,13 @@ governments, business and society. https://www.ceh.ac.uk/our-science/our-nationa
 * Not looking for one standard, but lots more examples!
 * How many RSE groups' needs are the same? 
 
+## Balance of activity
+
+* short-term deliverables, smaller scale project
+* vs long term, large scale aspirations (whether community building or big infra)
+* "knowing what is optimistic and still doable"
+* a lot easier to do what's under your nose
+
 ## Being welcoming
 
 * Balance of larger and smaller commitments
