@@ -120,7 +120,7 @@ _the 'who I am when I'm not working' approach_
 ## Being welcoming
 
 * Balance of larger and smaller commitments
-* Staying aspirational while not putting people off
+* Staying aspirational while not putting people off!
 * Finding ways to focus on longer term community plans 
 * "How do I stay engaged and informed?" - common question
 
