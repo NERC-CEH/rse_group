@@ -1,6 +1,6 @@
 on: 
   push:
-    paths: "./team/talks"
+    paths: "team/talks/**"
 
 jobs:
   convert_via_pandoc:

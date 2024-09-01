@@ -30,7 +30,7 @@ _the 'who I am when I'm not working' approach_
 * MC - Pool player, TBD
 * RL - Scout leader, TBD
 * AGS - TBD
-* JMR - TBD 
+* JMR - "into things that grow, make sound or otherwise spark joy" 
 
 ## Where we are 
 
