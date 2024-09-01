@@ -104,6 +104,7 @@ _the 'who I am when I'm not working' approach_
 ## Learning from other RSE cultures
 
 * Many groups have "handbooks" of common patterns
+* We don't find open licensed or shared ones
 * Not looking for one standard, but more examples!
 * How many RSE groups' needs are the same? 
 
