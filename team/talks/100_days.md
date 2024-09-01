@@ -103,7 +103,7 @@ _the 'who I am when I'm not working' approach_
 
 ## Learning from other RSE cultures
 * Many groups have "handbooks" of common patterns
-* Not looking for one standard, but lots more examples!
+* Not looking for one standard, but more examples!
 * How many RSE groups' needs are the same? 
 
 ["Getting Started with the RSE Movement within your Organization: A Guide for Individuals"](https://zenodo.org/records/10436166)

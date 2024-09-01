@@ -2,10 +2,6 @@ on:
   push:
     paths: "team/talks/**"
 
-defaults:
-  run:
-    working-directory: ./team/talks
-
 jobs:
   convert_via_pandoc:
     runs-on: ubuntu-22.04
@@ -13,7 +9,7 @@ jobs:
       - uses: actions/checkout@v3
       - uses: docker://pandoc/latex:2.9
         with:
-          args: -s --dpi=300 --slide-level 2 --toc --listings --shift-heading-level=0 --columns=50 -t beamer 100_days.md -o 100_days.pdf
+          args: -s --dpi=300 --slide-level 2 --toc --listings --shift-heading-level=0 --columns=50 -t beamer team/talks/100_days.md -o 100_days.pdf
           
       - uses: actions/upload-artifact@v3
         with:
