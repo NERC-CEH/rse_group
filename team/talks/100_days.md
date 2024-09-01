@@ -120,12 +120,12 @@ _the 'who I am when I'm not working' approach_
 
 * Balance of larger and smaller commitments
 * Staying aspirational while not putting people off
-* Finding ways to focus on longer term plans (like workshop/clinic series)
-* "How do I stay engaged and informed?" - A common question to us!
+* Finding ways to focus on longer term community plans 
+* "How do I stay engaged and informed?" - A common question
 
 ## Being equitable
 
-* Centrally managed IT _very conservative about Cyber Essentials
+* Centrally managed IT _very_ conservative about Cyber Essentials
 * Developers working on core services get two-tier treatment 
 * Researchers don't have admin access, therefore we shouldn't!
 * After 100 days we don't have a common, comfortable dev environment
