@@ -1,3 +1,7 @@
+---
+title: Research Software Clinics
+---
+
 # Research Software Clinics
 
 "Clinics" are a model used at the British Geological Survey for knowledge sharing and coaching among software engineering, data science and research staff. The sessions last an hour and run once a fortnight in the two largest BGS sites.

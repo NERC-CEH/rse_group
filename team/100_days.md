@@ -3,14 +3,29 @@ title: "A new RSE group, the first 100 days"
 author: Jo Walsh (with Alba Gomez Segura, Joe Marsh Rossney, Matt Brown, Matt Coole and Robin Long)
 date: September 3rd 2024
 output: beamer_presentation
+institute: "UK Centre for Ecology and Hydrology"
+topic: "Research Software Engineering Culture in Environmental Science"
+theme: "CambridgeUS"
+colortheme: "beaver"
+fonttheme: "professionalfonts"
+mainfont: "Hack Nerd Font"
+fontsize: 14pt
+urlcolor: red
+linkstyle: bold
+aspectratio: 169
+logo: img/ukceh_mini_logo.png
+section-titles: false
+toc: true
 ---
+
 
 # A new RSE group, the first 100 days
 
 ## Who we are
+_the 'who I am when I'm not working' approach_
 
 * A group of people with various academic and software engineering backgrounds
-* MJB - Weather-gazer, occasional dancer, photographer, reader, human: https://mattjbr123.github.io/ _(I've gone for the 'who I am when I'm not working' approach to start with!)_
+* MJB - Weather-gazer, occasional dancer, photographer, reader, human: https://mattjbr123.github.io/
 * JW - Mapper, hacker, choreographer, fitness instructor: https://github.com/metazool/ 
 * MC - Pool player, TBD
 * RL - Scout leader, TBD
@@ -19,11 +34,14 @@ output: beamer_presentation
 
 ## Where we are 
 
-* The "UK Centre for Ecology and Hydrology"
-* Not-for-profit independent Research Org.
-* Focused on floods, droughts, biodiversity, pollution research `---- suggestions: * Strategic delivery partner for the Natural Environment Research Council (NERC). Research across 6 science disciplines: Atmospheric chemistry, Biodiversity, Hydro-climate risks, Pollution, Soils and land use and Water resources https://www.ceh.ac.uk/sites/default/files/UKCEH-Strategy2025.pdf. * The Environmental Information Data Centre (EIDC) (one of the NERC's network of environmental data centres) is hosted by UKCEH. `
+* The UK Centre for Ecology and Hydrology
+* Not-for-profit independent research org (once NERC)
+* Atmospheric chemistry, Biodiversity, Hydro-climate risks, Pollution, Soils and land use and Water resources 
+* Runs the Environmental Information Data Centre for NERC
 * Lots of environmental monitoring and modelling!
 * Across 4 sites: Wallingford, Lancaster, Bangor, Edinburgh
+
+[UKCEH Strategy 2025](https://www.ceh.ac.uk/sites/default/files/UKCEH-Strategy2025.pdf)
 
 ## Why we're here
 
@@ -37,30 +55,39 @@ output: beamer_presentation
 * To not be seen as a "resource" or "pool", but as humans who can help
 * To make it easier for scientists to "make good decisions"/adopt good practices in projects heavily involving software/code
 * To develop resources, such as template repositories, and guides as part of the above bullet point, based on our experiences
-* To shape the future national-scale digital infrastructure UKCEH is building
-* Floods and Droughts Resilience Infrastructure (find and reuse hydrological data) ` ---  resilient and sustainable DRI ?? FDRI is one of the projects under DRI`
+* To shape the future national-scale Digital Research Infrastructure UKCEH is building parts of 
+* Floods and Droughts Resilience Infrastructure (find and reuse hydrological data)
 * National Capability UK (share, link and reuse environmental monitoring data) `---- suggestions: * National Capability for freshwater, terrestrial and atmosphere science - support researchers, 
-governments, business and society. https://www.ceh.ac.uk/our-science/our-national-role. Our innovation portfolio https://www.ceh.ac.uk/our-science/innovation`
+governments, business and society. 
+
+[UKCEH - our national role](https://www.ceh.ac.uk/our-science/our-national-role)
+[UKCEH Innovation Portfolio](https://www.ceh.ac.uk/our-science/innovation)
 
 ## Roles and functions
 
-* Lots of people in RSE or RSE-like roles, attached to groups or projects
+* Folks already in RSE or RSE-like roles, attached to groups or projects
 * First attempt by UKCEH to build a central group - hired six of us at once!
-* Our area of the org has social scientists, data scientists, devops specialists `-----Environmental scientists, UX researchers, semantics experts?`
+* Our area of the org is "Environmental Data Science"
+* social scientists, data scientists, devops specialists...  
+* ... data stewards, UX researchers, semantics experts
 * Flat team structure, trying to be conscious about communications norms 
 
 ## Culture building
 
 * Ourselves - drafting a Team Agreement
 * Our collaborators (EDS, Discussions)
-* Our communities ()
-* Our networks (groups in parallel orgs, local interest communities)
+* Our communities (researchers already invested in open source)
+* Our networks (groups in similar orgs, local interest communities)
+* CERSE in Edinburgh, CEEDS in Lancaster...
+
+[Community of Edinburgh RSEs](https://cerse.github.io/)
+[Centre of Excellence in Environmental Data Science](https://ceeds.ac.uk)
 
 ## Outreach and skills development
 
 * Mob programming, working with individuals
 * Luxury of doing this while governance still being worked out
-* SSI training conversations (they need funding allocation too)
+* SSI training conversations (they need funding allocation too!)
 * Clinics (ways to connect when people are heads-down; BGS example)
 
 ## Moving to the open
@@ -70,19 +97,23 @@ governments, business and society. https://www.ceh.ac.uk/our-science/our-nationa
 * Daily short, informal standups - text updates first, chat about common ground
 * Weekly catchup with management, 5-10 mins devoted to writing
 * Started out with "weeknotes" but they're hard to sustain
-* https://github.com/NERC-CEH/rse_group/
+
+[UKCEH RSE group Discussions](https://github.com/NERC-CEH/rse_group/discussions)
 
 ## Learning from other RSE cultures
 * Many groups have "handbooks" of common patterns
 * Not looking for one standard, but lots more examples!
 * How many RSE groups' needs are the same? 
 
+["Getting Started with the RSE Movement within your Organization: A Guide for Individuals"](https://zenodo.org/records/10436166)
+
 ## Balance of activity
 
-* short-term deliverables, smaller scale project
-* vs long term, large scale aspirations (whether community building or big infra)
+* Short-term engagements, transforming projects...
+* ... vs long term, large scale, "excellent and impactful" 
+* (whether that is community or infrastructure building)
 * "knowing what is optimistic and still doable"
-* a lot easier to do what's under your nose
+* Easier to do what's under your nose than dream big!
 
 ## Being welcoming
 
@@ -91,9 +122,18 @@ governments, business and society. https://www.ceh.ac.uk/our-science/our-nationa
 * Finding ways to focus on longer term plans (like workshop/clinic series)
 * "How do I stay engaged and informed?" - A common question to us!
 
+## Being equitable
+
+* Centrally managed IT _very conservative about Cyber Essentials
+* Developers working on core services get two-tier treatment 
+* Researchers don't have admin access, therefore we shouldn't!
+* After 100 days we don't have a common, comfortable dev environment
+* How can we work with other groups to help change this?
+
 ## Thoughtful conclusion
 
-* We have a lot more questions than we have answers
+* We have _a lot_ more questions than we have answers :)
 * We want to find common ground with similar groups
+* Looking forward to the "Weather and Climate Science" session
 * Talk to us! (pictures of everyone)
 
