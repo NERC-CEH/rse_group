@@ -138,4 +138,3 @@ _the 'who I am when I'm not working' approach_
 * Looking forward to the "Weather and Climate Science" session
 * Talk to us!
 \includegraphics{img/teamHeadshots.png}
-
