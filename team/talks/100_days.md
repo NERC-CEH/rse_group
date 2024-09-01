@@ -137,5 +137,5 @@ _the 'who I am when I'm not working' approach_
 * We have _a lot_ more questions than we have answers :)
 * Looking forward to the "Weather and Climate Science" session
 * Talk to us!
-![Team headshots](img/team_headshots_crop.png)
+![Team headshots](img/teamHeadshots.png)
 
