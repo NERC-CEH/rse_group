@@ -121,7 +121,7 @@ _the 'who I am when I'm not working' approach_
 * Balance of larger and smaller commitments
 * Staying aspirational while not putting people off
 * Finding ways to focus on longer term community plans 
-* "How do I stay engaged and informed?" - A common question
+* "How do I stay engaged and informed?" - common question
 
 ## Being equitable
 
