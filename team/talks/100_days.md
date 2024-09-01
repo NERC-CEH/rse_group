@@ -76,7 +76,7 @@ _the 'who I am when I'm not working' approach_
 * Ourselves - drafting a Team Agreement
 * Our collaborators (EDS, Discussions)
 * Our communities (researchers already invested in open source)
-* Our networks (groups in similar orgs, local interest communities)
+* Our networks (groups in similar orgs, local RSE communities)
 * CERSE in Edinburgh, CEEDS in Lancaster...
 
 [Community of Edinburgh RSEs](https://cerse.github.io/)
@@ -102,6 +102,7 @@ _the 'who I am when I'm not working' approach_
 [UKCEH RSE group Discussions](https://github.com/NERC-CEH/rse_group/discussions)
 
 ## Learning from other RSE cultures
+
 * Many groups have "handbooks" of common patterns
 * Not looking for one standard, but more examples!
 * How many RSE groups' needs are the same? 
