@@ -134,7 +134,7 @@ _the 'who I am when I'm not working' approach_
 ## Thoughtful conclusion
 
 * We have _a lot_ more questions than we have answers :)
-* We want to find common ground with similar groups
 * Looking forward to the "Weather and Climate Science" session
-* Talk to us! (pictures of everyone)
+* Talk to us!
+![Team headshots](img/team_headshots_crop.png)
 
