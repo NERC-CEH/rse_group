@@ -5,12 +5,12 @@ date: September 3rd 2024
 output: beamer_presentation
 institute: "UK Centre for Ecology and Hydrology"
 topic: "Research Software Engineering Culture in Environmental Science"
-theme: "CambridgeUS"
-colortheme: "beaver"
+theme: "Singapore"
+colortheme: "dolphin"
 fonttheme: "professionalfonts"
 mainfont: "Hack Nerd Font"
-fontsize: 14pt
-urlcolor: red
+fontsize: 13pt
+urlcolor: teal
 linkstyle: bold
 aspectratio: 169
 logo: img/ukceh_mini_logo.png
@@ -24,7 +24,7 @@ toc: true
 ## Who we are
 _the 'who I am when I'm not working' approach_
 
-* A group of people with various academic and software engineering backgrounds
+* 6 people, various academic and software engineering backgrounds
 * MJB - Weather-gazer, occasional dancer, photographer, reader, human: https://mattjbr123.github.io/
 * JW - Mapper, hacker, choreographer, fitness instructor: https://github.com/metazool/ 
 * MC - Pool player, TBD
@@ -52,13 +52,12 @@ _the 'who I am when I'm not working' approach_
 
 ## What we're aiming for
 
-* To not be seen as a "resource" or "pool", but as humans who can help
-* To make it easier for scientists to "make good decisions"/adopt good practices in projects heavily involving software/code
-* To develop resources, such as template repositories, and guides as part of the above bullet point, based on our experiences
-* To shape the future national-scale Digital Research Infrastructure UKCEH is building parts of 
+* Not be seen as a "resource" or "pool", but as humans who can help!
+* Make it easier for scientists to make good decisions about computers
+* Create blueprints, templates and guides based on our experiences
+* Help shape future national-scale Digital Research Infrastructure through UKCEH 
 * Floods and Droughts Resilience Infrastructure (find and reuse hydrological data)
-* National Capability UK (share, link and reuse environmental monitoring data) `---- suggestions: * National Capability for freshwater, terrestrial and atmosphere science - support researchers, 
-governments, business and society. 
+* National Capability UK (share, link and reuse environmental monitoring data)
 
 [UKCEH - our national role](https://www.ceh.ac.uk/our-science/our-national-role)
 [UKCEH Innovation Portfolio](https://www.ceh.ac.uk/our-science/innovation)
@@ -88,13 +87,15 @@ governments, business and society.
 * Mob programming, working with individuals
 * Luxury of doing this while governance still being worked out
 * SSI training conversations (they need funding allocation too!)
-* Clinics (ways to connect when people are heads-down; BGS example)
+* Clinics (ways to connect when people are heads-down)
+* BGS have a great model for clinics, who else does?
 
 ## Moving to the open
 
 * "How do we communicate" - default to open, and press for that.
+* Both open source, and open process!
 * A shared repository mainly used for threaded Discussions
-* Daily short, informal standups - text updates first, chat about common ground
+* Daily short, informal standups - text first, chat about common ground
 * Weekly catchup with management, 5-10 mins devoted to writing
 * Started out with "weeknotes" but they're hard to sustain
 
