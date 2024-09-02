@@ -27,7 +27,7 @@ _the 'who I am when I'm not working' approach_
 * 6 people, various academic and software engineering backgrounds
 * MJB - Weather-gazer, occasional dancer, photographer, reader, human: https://mattjbr123.github.io/
 * JW - Mapper, hacker, choreographer, fitness instructor: https://github.com/metazool/ 
-* MC - Pool player, TBD
+* MC - Pool player, movie lover, occasional walker.
 * RL - Scout leader, TBD
 * AGS - TBD
 * JMR - "into things that grow, make sound or otherwise spark joy" 
