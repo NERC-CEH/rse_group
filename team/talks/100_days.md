@@ -29,7 +29,7 @@ _the 'who I am when I'm not working' approach_
 * JW - Mapper, hacker, choreographer, fitness instructor: https://github.com/metazool/ 
 * MC - Pool player, movie lover, occasional walker.
 * RL - Scout leader, TBD
-* AGS - TBD
+* AGS - Curious person who enjoys exploring new places, reading novels, photography and painting.
 * JMR - "into things that grow, make sound or otherwise spark joy" 
 
 ## Where we are 
