@@ -1,0 +1,12 @@
+title: UKCEH Research Software Engineering in Environmental Data Science
+email: jowals@ceh.ac.uk
+description: >- # this means to ignore newlines until "baseurl:"
+  This repository contains documentation and links for the Research Software Engineering group in Environmental Data Science at the UK Centre for Ecology and Hydrology
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  metazool
+
+# Build settings
+remote_theme: riggraz/no-style-please
+plugins:
+  - jekyll-feed

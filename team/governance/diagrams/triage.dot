@@ -1,0 +1,25 @@
+
+digraph G {
+    
+  bgcolor=transparent;
+  node [fontname = "Handlee"];
+  edge [fontname = "Handlee"];
+  
+  enquiry [ label="Enquiry"];
+  logged_once [ label="Logged FAIRly" shape=rectangle];
+  make_forum [label="Make a forum" shape=rectangle];
+  review_discussion [label="Review discussion" shape=rectangle]
+  criteria [label="Fits the criteria?" shape=diamond]
+  
+  application [ label="Application"]
+  log_decision [label="Log decision"]
+  
+  enquiry -> logged_once;
+  logged_once -> make_forum;
+  make_forum -> review_discussion;
+  review_discussion -> criteria;
+  criteria -> application[label="Ready?"];
+  criteria:ne -> review_discussion[label="Needs work?"];
+  criteria -> log_decision [label="Not really"];
+
+}

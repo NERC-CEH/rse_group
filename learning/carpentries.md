@@ -1,4 +1,9 @@
+---
+title: Research Software Carpentries
+---
+
 # The Carpentries
+
 
 Provide open licenced short courses on topics which help researchers and data managers create more reusable code. The courses can be run by anyone, but the Carpentries organisation also supports members to go through intructor training. Silver level membership includes supported instructor training for 5 people)
 

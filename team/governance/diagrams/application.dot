@@ -1,0 +1,20 @@
+digraph G {
+    
+  bgcolor=white;
+  node [fontname = "Handlee"];
+  edge [fontname = "Handlee"];
+  
+  application [ label="Application"];
+  is_complete [ label="Is it complete?" shape=diamond]
+  committee [label="Science Committee"]
+  timeline_ok [label="Resources fit the timeline?" shape=diamond]
+  exco_hr [label="ExCo / HR conversation"]
+
+  application -> is_complete;
+  is_complete -> timeline_ok [label="Yes"];
+  is_complete:ne -> application:se [label="No"];
+  
+  timeline_ok -> committee [label="Yes"];
+  timeline_ok -> exco_hr [label="No"];
+ 
+}

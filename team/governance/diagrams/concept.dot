@@ -1,0 +1,33 @@
+digraph G {
+    
+  bgcolor=transparent;
+  node [fontname = "Handlee"];
+  edge [fontname = "Handlee"];
+
+  
+  starting [ label = "Concept"];
+  pm_support [ label = "PM support"];
+  funded [ label = "Is it funded?" shape=diamond ];
+  extra_support [label="What are you looking for?" shape=diamond]
+  help_tech [label="Type?" shape=diamond]
+  go_to_it [label="Go to IT channels"]
+  offered [label="Is this within RSE scope?" shape=diamond]
+  proposal[label="Proposal for future RSE capability"]
+  
+  starting -> funded;
+  
+  funded -> pm_support[label="Externally?"];
+  funded -> pm_support[label="Internally?"];
+  funded -> extra_support[label="Not yet?"];
+
+  extra_support:w -> pm_support[label="Help with grantwriting"];
+  extra_support -> help_tech[label="Technical support"];
+  extra_support:e -> offered[label="Consultancy"];
+  
+  help_tech -> offered[label="Skills development"];
+  help_tech -> go_to_it[label="Debugging and repair"];
+  
+  offered -> pm_support[label="Yes"]
+  offered -> proposal[label="No"]
+  
+}
