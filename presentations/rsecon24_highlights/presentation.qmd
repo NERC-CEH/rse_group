@@ -105,8 +105,42 @@ devbox shell  # activates the shell
 
 * * *
 
-### Topic
+### "Scaling reproducibility" influencing change workshop
 
+- Discussion-focused look at the detail of [the framework](https://zenodo.org/records/10664660)
+- Assess your org's maturity levels against different criteria:
+- 'Locus of leadership', 'Communities of Practise', 'Tools', 'Education and training', 'Incentives', 'Modelling and mentoring', 'Review and feedback', 'Expert involvement', 'Policies and procedures'
+- Helps pick where to focus effort for most payoff of impact
+- Helps map a path about where to improve, without despairing where you are now
+- Leaves you reflecting that the benefits of RSE work are more culture than code 
+
+* * *
+
+### Mutation testing - who tests the testers?
+
+- Met Office use of [mutmut](https://mutmut.readthedocs.io/en/latest/index.html) to stress their python tests
+- In essence, change the meaning of one line of code, if the tests still pass, they're weak
+- Helps think twice about what your code is doing, not only how you're testing
+- Useful for big legacy codebases as well as new work
+
+* * *
+
+### "Reproducible distributed research in practice"
+
+- Next-level approach to distributed data-versioning and workflow tools  
+- Active development by [RESIDE](https://reside-ic.github.io/) group at the MRC Centre at Imperial
+- "leans on metaphors from containerisation" - best of git, docker and `{targets}`
+- Language-agnostic, with a `[pyorderly](https://github.com/mrc-ide/pyorderly)` equivalent to R's `orderly`
+
+* * *
+
+### Special mentions!
+
+- Early morning classes! Bhangra dancing, meditation
+- Quiet Room for neurodiverse people to decompress in
+- Lots of potential for more conversational, self-organising activity
+
+* * *
 
 # Matt B's highlights
 
