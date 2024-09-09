@@ -1,0 +1,129 @@
+---
+title: RSECon 2024 Highlights
+author:
+  - name: Joe Marsh Rossney
+    email: joemar@ceh.ac.uk
+  - name: Jo Walsh
+    email: jowals@ceh.ac.uk
+  - name: Matt Brown
+    email: matbro@ceh.ac.uk
+  - name: Matt Coole
+    email: matcoo@ceh.ac.uk
+date: today
+date-format: full
+format: 
+  revealjs:
+    logo: ../../img/logo.png
+    smaller: true
+    scrollable: true
+    progress: true
+    embed-resources: true
+---
+
+# Joe's highlights
+
+* * * 
+
+### CodeRefinery workshops
+
+> _"We train you in research software development"_
+
+[coderefinery.org](https://coderefinery.org) | [github.com/coderefinery](https://github.com/coderefinery) | [nordic-rse.org](https://nordic-rse.org/)
+
+- Live-streamed workshops on twitch, similar to [the carpentries](https://carpentries.org/index.html)
+- Hybrid 'bring your own classroom' format - like a 'watch party'
+- Previous workshops uploaded to [youtube.com/\@coderefinery3414](https://www.youtube.com/\@coderefinery3414)
+- Publically funded (by Nordic research council), run as a community project
+- They seem incredibly open and seeking collaboration, see e.g. [coderefinery.org/tasks](https://coderefinery.org/tasks/)
+
+#### For RSEs & other instructors...
+
+- They run instructor training workshops (help us become better teachers)
+- RSEs could provide workshops via their platform, so that our colleagues at other organisations can benefit
+
+* * * 
+
+### Carbon cost of software
+
+#### Carbon cost calculator from [green-algorithms.org](https://www.green-algorithms.org/)
+
+- Input details of algorithm, runtime, hardware to get a CO~2~ estimate
+- Inevitably _very_ large errors on estimates, particularly for HPC
+- See [doi.org/10.1002/advs.202100707](https://onlinelibrary.wiley.com/doi/10.1002/advs.202100707) for methodology
+
+#### A Python package [codecarbon.io](https://codecarbon.io) for _in situ_ estimates
+
+- Speaker (from STFC) used `codecarbon` to add CO~2~ estimate to existing tool for benchmarking optimisation algorithms: [github.com/fitbenchmarking](https://github.com/fitbenchmarking/fitbenchmarking)
+
+#### An HPC case study ([archer2.ac.uk](https://www.archer2.ac.uk/))
+
+- Surprising claim: energy efficiency is the wrong metric as renewables increasingly dominate electricity generation. 
+- Instead, aim to maximise life-span and system utilisation.
+- ARCHER 2 aiming to provide emissions info to users (Jasmin could do the same!)
+
+* * * 
+
+### Reproducible development environments
+
+- Speaker reported on their experience using [jetify.com/devbox](https://www.jetify.com/devbox), a CLT for generating dev isolated dev environments based on NixOS (see [nixos.org](https://nixos.org/))
+- Just modifies `$PATH` (no virtualisation) --- very similar to `cargo`, `poetry`, `pixi` in both principle and practice
+- `devbox.lock` contains everything needed to reproduce environment _exactly_
+
+```sh
+devbox init  # creates devbox.json
+devbox add git  # installs git@latest & adds it to devbox.json
+devbox add python@3.12  # same for Python 3.12
+devbox shell  # activates the shell
+```
+
+- Nix lets you build an entire OS deterministically from a configuration file --- consistent environment on local host, CI, VM
+- Unfortunately Nix does not build packages with non-free backends, so e.g. PyTorch with MKL & CUDA is difficult and tedious
+- Doesn't work on Windows
+
+* * *
+
+### Notable mentions
+
+#### Weather & climate RSEs - discussion
+
+- Participants made notes during the session: [hackmd.io/W9YAQowdSSqJ2RELJEd5tw](https://hackmd.io/W9YAQowdSSqJ2RELJEd5tw)
+- Join the new channel `#weather-climate` in [ukrse.slack.com](https://ukrse.slack.com/)
+- Subscribe to the mailing list using the google form here: [tinyurl.com/49x7c4fc](https://tinyurl.com/49x7c4fc)
+- Join the Special Interest Group using the same form
+
+#### Framework for scaling up reproducible practices in research organisations
+
+- Framework ([zenodo.org/records/10664660](https://zenodo.org/records/10664660)) based on a mixed-methods study [zenodo.org/records/10663903](https://zenodo.org/records/10663903) 
+- Dimensions considered: tools, training, incentives, mentors, feedback, expert involvement, policies and procedures
+- In most cases the interesting and difficult part is the 'scaling up' part!
+- Also discussed 'good enough practices in scientific computing' --- [doi.org/10.1371/journal.pcbi.1005510](https://doi.org/10.1371/journal.pcbi.1005510)
+
+<!-- and suggested interventions from [bioRxiv 2022.12.08.519666](https://www.biorxiv.org/content/10.1101/2022.12.08.519666v1) -->
+
+
+# Jo's highlights
+
+* * *
+
+### Topic
+
+
+# Matt B's highlights
+
+* * *
+
+### Topic
+
+
+# Matt C's highlights
+
+* * *
+
+### Topic
+
+
+# Useful links
+
+- Conference website: [rsecon24.society-rse.org/](https://rsecon24.society-rse.org/)
+- RSE Society youtube channel: [youtube.com/@SocRSE](https://www.youtube.com/@SocRSE/)
+- Our internal discussions: [github.com/NERC-CEH/rse_group/discussions/40](https://github.com/NERC-CEH/rse_group/discussions/40)
