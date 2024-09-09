@@ -136,6 +136,7 @@ devbox shell  # activates the shell
 
 ### Special mentions!
 
+- The [YeSTEM Equity Compass](https://yestem.org/tools/the-equity-compass/) from the opening keynote
 - Early morning classes! Bhangra dancing, meditation
 - Quiet Room for neurodiverse people to decompress in
 - Lots of potential for more conversational, self-organising activity
