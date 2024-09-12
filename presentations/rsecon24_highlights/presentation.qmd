@@ -141,13 +141,47 @@ devbox shell  # activates the shell
 - Quiet Room for neurodiverse people to decompress in
 - Lots of potential for more conversational, self-organising activity
 
-* * *
 
 # Matt B's highlights
 
 * * *
 
-### Topic
+### Highlights
+- [Document checklist/assessment criteria](https://docs.google.com/document/d/1NuBSkRCY3wpLmuM0kGmZA8wPxTnqu4Ow6B-Ay1_vgoM/edit) and [worksheet](https://cehacuk.sharepoint.com/:x:/r/sites/ResearchSoftwareEngineeringCommunity/_layouts/15/Doc.aspx?sourcedoc=%7BCEF59DB7-CC17-4FE7-8B13-2104DBD33D3D%7D&file=Reproducibility_Assessment_Worksheet.xlsx&wdOrigin=TEAMS-MAGLEV.p2p_ns.rwc&action=default&mobileredirect=true) for where organisations are for software reproducibility (Jo already covered nicely)
+- [RO-Crate](https://www.researchobject.org/ro-crate/). A way of packaging metadata and provenance with data. Could be useful for FDRI. Follow up with a [previous assessment](https://wiki.ceh.ac.uk/display/ad/ro-crate) of it conducted in the EDS team. [(Py)orderly](https://github.com/mrc-ide/pyorderly) is in a similar space too (already covered)
+- Great conversation with friendly folk at UKAEA, have had an RSE group for \~7years, very willing to help us set up ours
+
+* * *
+
+### The importance of boilerplate code
+
+- A reminder that this code can make big impacts!
+- Tricky to install? Use a CI workflow on GH to automatically upload to pypi
+- Hard to get (small) inputs into code? Collect in a data repository and auto-download from code
+- Doesn't work in X language? Write a wrapper around the code in X language
+- Some nice things to bear in mind in our work
+
+* * *
+
+### Training resources
+
+- Some [performance and profiling training resources](https://rse.shef.ac.uk/pando-python/index.html) which are nice-to-haves, something we can point out when reviewing code, use in our best practices when developing code and fold into any training where appropriate
+- Some [testing training resources](https://github.com/abhidg/advanced-python-testing)
+- Some [FAIR4RS (FAIR for Research Software) training resources](https://carpentries-incubator.github.io/fair-research-software/00-introduction.html)
+- [Coderefinery](https://www.coderefinery.org) "bring your own classroom" approach (mentioned by Joe earlier)
+
+* * *
+
+### Working with object storage and gridded data
+- Work at NOC that has close parallels with what I am trying to do in FDRI. [Presentation](https://docs.google.com/presentation/d/18RZSS0LEIYOHK0Qhh_UWaCh00lhfXlfO/edit#slide=id.p1) here, [streamlit-based visualisation app](https://github.com/NOC-OI/class_streamlit_zarr) here, cute little command line application aiming to simplify the netcdf -> rechunk -> zarr pipeline [here](https://github.com/NOC-OI/msm-os). 
+- They also have a Data Science Platform that'd it'd be good to get to know better. Meeting being arranged! 
+
+* * *
+
+### Honourable mentions
+- [A name change policy working group](https://ncpwg.org/resources/authors/) aiming to make it easier for researchers to change their names and not be harmed by it, given academia's focus on your publishing/contribution record
+- Which was mentioned in an EEDI "Birds of a Feather" session which had lots of other great inclusivity ideas! Notes from the session to be dsitributed once anonymised.
+- The friendly and accommodating vibe!
 
 
 # Matt C's highlights
