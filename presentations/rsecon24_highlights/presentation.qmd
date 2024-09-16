@@ -187,8 +187,41 @@ devbox shell  # activates the shell
 # Matt C's highlights
 
 * * *
+### Technical Presentations
+- Performant Python Patterns
+	- [Python Profiling (Carpentries)](https://rse.shef.ac.uk/pando-python/)
+	- Incredible performance of python built ins.
+- Advanced Python Testing
+	- [`hypothesis`](https://hypothesis.works/)
+	- [`syrupy`](https://github.com/syrupy-project/syrupy)
 
-### Topic
+* * *
+### Agile Methods for RSEs
+#### Manchester University
+- Manchester Universities approach to managing projects using scrum and agile.
+- Importance of being flexible and truly agile based on engagement from stakeholders.
+- Tooling based around using github with customisations.
+
+#### Alan Turing Institute
+- Turing Institute's approach to agile - being adaptive based on projects.
+- Daily stand-ups difficult with researchers - weekly (focus on what's blocking).
+- Focus on what works for your team - not what other people do.
+
+* * *
+### Cookie cutters
+- Importance of templates for helping to adopt best practise.
+- Tooling beyond [Cookie Cutters](https://www.cookiecutter.io/) like [Copier](https://copier.readthedocs.io/en/stable/) which allow options and profiles.
+- Lots of existing templates to build on / collaborate with
+	- [Materials Data Science and Informatics Template]( https://github.com/Materials-Data-Science-and-Informatics/fair-python-cookiecutter)
+	- [Alan Turing Institute Template](https://github.com/alan-turing-institute/python-project-template/tree/main)
+
+* * *
+### Other highlights
+- Demystifying Large Language Models (Martin O'Reilly)
+- Keynote (Anne-Marie Imafidon)
+	- [Invisible Women](https://carolinecriadoperez.com/book/invisible-women/)
+- A New RSE Group - The First 100 Days (Jo Walsh)
+- Weather & Climate RSE Community (Jo Marsh Rossney)
 
 
 # Useful links
