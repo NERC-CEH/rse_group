@@ -188,27 +188,30 @@ devbox shell  # activates the shell
 
 * * *
 ### Technical Presentations
-- Performant Python Patterns
+- Performant Python Patterns ([Robert Chisholm](https://github.com/Robadob))
 	- [Python Profiling (Carpentries)](https://rse.shef.ac.uk/pando-python/)
 	- Incredible performance of python built ins.
-- Advanced Python Testing
+- Advanced Python Testing ([Abhishek Dasgupta](https://github.com/abhidg))
 	- [`hypothesis`](https://hypothesis.works/)
 	- [`syrupy`](https://github.com/syrupy-project/syrupy)
+- Demystifying Large Language Models ([Martin O'Reilly](https://github.com/martintoreilly))
+  - Shortcomings with bias, hallucinations, snapshot in time.
+  - Dificulties in evaluating performance.
 
 * * *
 ### Agile Methods for RSEs
-#### Manchester University
+#### Manchester University ([Ann Gledson](https://github.com/AnnAnnFryingPan), [Adrian Harwood](https://github.com/aharwood2))
 - Manchester Universities approach to managing projects using scrum and agile.
 - Importance of being flexible and truly agile based on engagement from stakeholders.
 - Tooling based around using github with customisations.
 
-#### Alan Turing Institute
+#### Alan Turing Institute ([Carlos Gavidia-Calderon](https://github.com/cptanalatriste))
 - Turing Institute's approach to agile - being adaptive based on projects.
 - Daily stand-ups difficult with researchers - weekly (focus on what's blocking).
 - Focus on what works for your team - not what other people do.
 
 * * *
-### Cookie cutters
+### Cookie cutters ([Carlos Martinez-Ortiz](https://github.com/c-martinez))
 - Importance of templates for helping to adopt best practise.
 - Tooling beyond [Cookie Cutters](https://www.cookiecutter.io/) like [Copier](https://copier.readthedocs.io/en/stable/) which allow options and profiles.
 - Lots of existing templates to build on / collaborate with
@@ -217,12 +220,18 @@ devbox shell  # activates the shell
 
 * * *
 ### Other highlights
-- Demystifying Large Language Models (Martin O'Reilly)
-- Keynote (Anne-Marie Imafidon)
+- Keynote ([Anne-Marie Imafidon](https://aimafidon.com/about/))
 	- [Invisible Women](https://carolinecriadoperez.com/book/invisible-women/)
-- A New RSE Group - The First 100 Days (Jo Walsh)
-- Weather & Climate RSE Community (Jo Marsh Rossney)
+- A New RSE Group - The First 100 Days ([Jo Walsh](https://github.com/metazool))
+- Weather & Climate RSE Community ([Jo Marsh Rossney](https://github.com/jmarshrossney))
 
+::: {layout-ncol=3}
+![Jo Walsh, RSECon24](../../img/jw_rsecon24.jpg)
+
+![Newcastle, RSECon24](../../img/newcastle_rsecon24.jpg)
+
+![Joe Marsh Rossney, RSECon24](../../img/jmr_rsecon24.jpg)
+:::
 
 # Useful links
 
