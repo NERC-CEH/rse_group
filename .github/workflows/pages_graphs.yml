@@ -3,6 +3,7 @@ on:
   push:
     branches:
     - '*'
+    - '!100_days'
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
