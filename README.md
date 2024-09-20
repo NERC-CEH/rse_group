@@ -9,7 +9,7 @@ We are the RSE team at UKCEH.   We are based in the Environmental Data Science G
 * [Matt Brown](https://mattjbr123.github.io/)
 * [Jo Walsh](https://github.com/metazool/)
 * Matt Coole
-* [Robin Long](htttps://longr.github.io)
+* [Robin Long](https://longr.github.io)
 * [Alba Gomez Segura](https://github.com/albags)
 * Joe Marsh Rossney
 
