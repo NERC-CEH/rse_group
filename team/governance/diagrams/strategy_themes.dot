@@ -1,0 +1,44 @@
+digraph G {
+
+  bgcolor=transparent;
+  node [fontname = "Helvetica"];
+  edge [fontname = "Helvetica"];
+
+
+
+Storage [ label = "Storage" ];
+Catalogue [ label = "Catalogue" ];
+Asset_register [ label = "Asset register" ];
+Preservation [ label = "Preservation"];
+Deprecation [label = "Deprecation"];
+Monitoring [ label = "Monitoring"];
+Data_stewardship [ label = "Data stewardship" ];
+DMPs [label = "Data Management Plans"];
+
+Datalabs [ label = "Datalabs" ];
+Interactive publications [ label = "Interactive publications" ];
+Reports [ label = "Reports"];
+Multimedia [ label = "Multimedia"]
+
+Compute_clusters [ label = "Compute clusters" ];
+Local_compute [ label = "Local compute"];
+Feedback [ label = "Feedback" ];
+Support [ label = "Support" ];
+Knowledge_share [ label = "Knowledge share"];
+
+Web_portals [ label = "Web portals" ];
+Visualisation [ label = "Visualisation" ];
+APIs [ label = "APIs" ];
+
+Data_methods [ label = "Data methods (?)" ];
+AI_methods [ label = "AI methods (?)" ];
+Model_registry [ label = "Model registry"];
+Model_documentation [ label = "Model documentation"];
+
+Metadata [ label = "Metadata" ];
+Sensors [ label = "Sensors" ];
+Sites [ label = "Sites" ];
+Sustainability [ label = "Sustainability" ];
+
+
+}
