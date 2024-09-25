@@ -3,7 +3,7 @@ on:
   push:
     branches:
     - 'main'
-    - '!100_days'
+    - 'strategy_themes'
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:

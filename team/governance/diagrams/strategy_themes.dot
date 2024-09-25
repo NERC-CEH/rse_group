@@ -9,13 +9,13 @@ digraph G {
     Asset_register [ label = "Asset register" ];
     Preservation [ label = "Preservation"];
     Deprecation [label = "Deprecation"];
-    Monitoring [ label = "Monitoring"];
+    Observability [ label = "Observability"];
     Data_stewardship [ label = "Data stewardship" ];
     DMPs [label = "Data Management Plans"];
 
-    Datalabs [ label = "Datalabs" ];
-    Posit_Connect [ label = "Posit Connect"];
-    Interactive publications [ label = "Interactive publications" ];
+    Notebooks [ label = "Notebooks" ];
+    App_server [ label = "Application Server \n(e.g. Posit Connect)"];
+    Publications [ label = "Interactive publications" ];
     Reports [ label = "Reports"];
     Multimedia [ label = "Multimedia"];
 
@@ -29,6 +29,9 @@ digraph G {
     Web_portals [ label = "Web portals" ];
     Visualisation [ label = "Visualisation" ];
     APIs [ label = "APIs" ];
+
+    Pipelines [label = "Pipelines"]
+    Repositories [label="Repositories"]
 
     Data_methods [ label = "Data methods (?)" ];
     AI_methods [ label = "AI methods (?)" ];
@@ -46,18 +49,21 @@ digraph G {
     Metadata -> Sites;
     Metadata -> Sensors;
 
-    Catalogue -> Datalabs;
-    Datalabs -> Compute_clusters;
-    Datalabs -> Interactive_publications;
+    Catalogue -> Notebooks;
+    Notebooks -> Compute_clusters;
+    Notebooks -> Interactive_publications;
 
-    Posit_Connect -> Web_portals;
-    Posit_Connect -> Visualisation;
-    Posit_Connect -> APIs;
+    App_server -> Web_portals;
+    App_server -> Visualisation;
+    App_server -> APIs;
 
     Compute_clusters -> Sustainability;
     Local_compute -> Sustainability;
     Storage -> Sustainability;
     Sensors -> Sustainability;
+    Sustainability -> Observability;
+    Compute_clusters -> Observability;
+    App_server -> Observability;
 
     Support -> Local_compute;
     Support -> Feedback;
@@ -83,4 +89,15 @@ digraph G {
     Preservation -> Catalogue;
 
     Deprecation -> Asset_register;
+
+    Storage -> Pipelines;
+    Repositories -> Pipelines;
+    Pipelines -> Metadata;
+
+    Notebooks -> Publications;
+    App_server -> Publications;
+    App_server -> Multimedia;
+
+    Asset_register -> Support;
+    Asset_register -> App_server;
 }
