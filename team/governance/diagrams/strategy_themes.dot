@@ -1,44 +1,86 @@
 digraph G {
 
-  bgcolor=transparent;
-  node [fontname = "Helvetica"];
-  edge [fontname = "Helvetica"];
+    bgcolor=transparent;
+    node [fontname = "Helvetica"];
+    edge [fontname = "Helvetica"];
 
+    Storage [ label = "Storage" ];
+    Catalogue [ label = "Catalogue" ];
+    Asset_register [ label = "Asset register" ];
+    Preservation [ label = "Preservation"];
+    Deprecation [label = "Deprecation"];
+    Monitoring [ label = "Monitoring"];
+    Data_stewardship [ label = "Data stewardship" ];
+    DMPs [label = "Data Management Plans"];
 
+    Datalabs [ label = "Datalabs" ];
+    Posit_Connect [ label = "Posit Connect"];
+    Interactive publications [ label = "Interactive publications" ];
+    Reports [ label = "Reports"];
+    Multimedia [ label = "Multimedia"];
 
-Storage [ label = "Storage" ];
-Catalogue [ label = "Catalogue" ];
-Asset_register [ label = "Asset register" ];
-Preservation [ label = "Preservation"];
-Deprecation [label = "Deprecation"];
-Monitoring [ label = "Monitoring"];
-Data_stewardship [ label = "Data stewardship" ];
-DMPs [label = "Data Management Plans"];
+    Compute_clusters [ label = "Compute clusters" ];
+    Local_compute [ label = "Local compute"];
+    Feedback [ label = "Feedback" ];
+    Support [ label = "Support" ];
+    Knowledge_share [ label = "Knowledge share"];
 
-Datalabs [ label = "Datalabs" ];
-Interactive publications [ label = "Interactive publications" ];
-Reports [ label = "Reports"];
-Multimedia [ label = "Multimedia"]
+    Applications [ label = "Applications"];
+    Web_portals [ label = "Web portals" ];
+    Visualisation [ label = "Visualisation" ];
+    APIs [ label = "APIs" ];
 
-Compute_clusters [ label = "Compute clusters" ];
-Local_compute [ label = "Local compute"];
-Feedback [ label = "Feedback" ];
-Support [ label = "Support" ];
-Knowledge_share [ label = "Knowledge share"];
+    Data_methods [ label = "Data methods (?)" ];
+    AI_methods [ label = "AI methods (?)" ];
+    Model_registry [ label = "Model registry"];
+    Model_documentation [ label = "Model documentation"];
 
-Web_portals [ label = "Web portals" ];
-Visualisation [ label = "Visualisation" ];
-APIs [ label = "APIs" ];
+    Metadata [ label = "Metadata" ];
+    Sensors [ label = "Sensors" ];
+    Sites [ label = "Sites" ];
+    Sustainability [ label = "Sustainability" ];
 
-Data_methods [ label = "Data methods (?)" ];
-AI_methods [ label = "AI methods (?)" ];
-Model_registry [ label = "Model registry"];
-Model_documentation [ label = "Model documentation"];
+    Storage -> Catalogue;
+    Catalogue -> Metadata;
+    Catalogue -> APIs;
+    Metadata -> Sites;
+    Metadata -> Sensors;
 
-Metadata [ label = "Metadata" ];
-Sensors [ label = "Sensors" ];
-Sites [ label = "Sites" ];
-Sustainability [ label = "Sustainability" ];
+    Catalogue -> Datalabs;
+    Datalabs -> Compute_clusters;
+    Datalabs -> Interactive_publications;
 
+    Posit_Connect -> Web_portals;
+    Posit_Connect -> Visualisation;
+    Posit_Connect -> APIs;
 
+    Compute_clusters -> Sustainability;
+    Local_compute -> Sustainability;
+    Storage -> Sustainability;
+    Sensors -> Sustainability;
+
+    Support -> Local_compute;
+    Support -> Feedback;
+    Support -> Knowledge_share;
+
+    Catalogue -> Model_registry;
+    Model_registry -> Model_documentation;
+    Model_registry -> AI_methods;
+
+    Catalogue -> Data_methods;
+
+    Data_stewardship -> Data_methods;
+    Data_stewardship -> DMPs;
+    DMPs -> Catalogue;
+    Sensors -> DMPs;
+    Sites -> DMPs;
+
+    Asset_register -> Applications;
+    Asset_register -> Local_compute;
+    Asset_register -> Sensors;
+
+    Preservation -> Asset_register;
+    Preservation -> Catalogue;
+
+    Deprecation -> Asset_register;
 }
