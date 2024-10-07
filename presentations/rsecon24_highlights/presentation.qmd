@@ -1,0 +1,240 @@
+---
+title: RSECon 2024 Highlights
+author:
+  - name: Joe Marsh Rossney
+    email: joemar@ceh.ac.uk
+  - name: Jo Walsh
+    email: jowals@ceh.ac.uk
+  - name: Matt Brown
+    email: matbro@ceh.ac.uk
+  - name: Matt Coole
+    email: matcoo@ceh.ac.uk
+date: today
+date-format: full
+format: 
+  revealjs:
+    logo: ../../img/logo.png
+    smaller: true
+    scrollable: true
+    progress: true
+    embed-resources: true
+---
+
+# Joe's highlights
+
+* * * 
+
+### CodeRefinery workshops
+
+> _"We train you in research software development"_
+
+[coderefinery.org](https://coderefinery.org) | [github.com/coderefinery](https://github.com/coderefinery) | [nordic-rse.org](https://nordic-rse.org/)
+
+- Live-streamed workshops on twitch, similar to [the carpentries](https://carpentries.org/index.html)
+- Hybrid 'bring your own classroom' format - like a 'watch party'
+- Previous workshops uploaded to [youtube.com/\@coderefinery3414](https://www.youtube.com/\@coderefinery3414)
+- Publically funded (by Nordic research council), run as a community project
+- They seem incredibly open and seeking collaboration, see e.g. [coderefinery.org/tasks](https://coderefinery.org/tasks/)
+
+#### For RSEs & other instructors...
+
+- They run instructor training workshops (help us become better teachers)
+- RSEs could provide workshops via their platform, so that our colleagues at other organisations can benefit
+
+* * * 
+
+### Carbon cost of software
+
+#### Carbon cost calculator from [green-algorithms.org](https://www.green-algorithms.org/)
+
+- Input details of algorithm, runtime, hardware to get a CO~2~ estimate
+- Inevitably _very_ large errors on estimates, particularly for HPC
+- See [doi.org/10.1002/advs.202100707](https://onlinelibrary.wiley.com/doi/10.1002/advs.202100707) for methodology
+
+#### A Python package [codecarbon.io](https://codecarbon.io) for _in situ_ estimates
+
+- Speaker (from STFC) used `codecarbon` to add CO~2~ estimate to existing tool for benchmarking optimisation algorithms: [github.com/fitbenchmarking](https://github.com/fitbenchmarking/fitbenchmarking)
+
+#### An HPC case study ([archer2.ac.uk](https://www.archer2.ac.uk/))
+
+- Surprising claim: energy efficiency is the wrong metric as renewables increasingly dominate electricity generation. 
+- Instead, aim to maximise life-span and system utilisation.
+- ARCHER 2 aiming to provide emissions info to users (Jasmin could do the same!)
+
+* * * 
+
+### Reproducible development environments
+
+- Speaker reported on their experience using [jetify.com/devbox](https://www.jetify.com/devbox), a CLT for generating dev isolated dev environments based on NixOS (see [nixos.org](https://nixos.org/))
+- Just modifies `$PATH` (no virtualisation) --- very similar to `cargo`, `poetry`, `pixi` in both principle and practice
+- `devbox.lock` contains everything needed to reproduce environment _exactly_
+
+```sh
+devbox init  # creates devbox.json
+devbox add git  # installs git@latest & adds it to devbox.json
+devbox add python@3.12  # same for Python 3.12
+devbox shell  # activates the shell
+```
+
+- Nix lets you build an entire OS deterministically from a configuration file --- consistent environment on local host, CI, VM
+- Unfortunately Nix does not build packages with non-free backends, so e.g. PyTorch with MKL & CUDA is difficult and tedious
+- Doesn't work on Windows
+
+* * *
+
+### Notable mentions
+
+#### Weather & climate RSEs - discussion
+
+- Participants made notes during the session: [hackmd.io/W9YAQowdSSqJ2RELJEd5tw](https://hackmd.io/W9YAQowdSSqJ2RELJEd5tw)
+- Join the new channel `#weather-climate` in [ukrse.slack.com](https://ukrse.slack.com/)
+- Subscribe to the mailing list using the google form here: [tinyurl.com/49x7c4fc](https://tinyurl.com/49x7c4fc)
+- Join the Special Interest Group using the same form
+
+#### Framework for scaling up reproducible practices in research organisations
+
+- Framework ([zenodo.org/records/10664660](https://zenodo.org/records/10664660)) based on a mixed-methods study [zenodo.org/records/10663903](https://zenodo.org/records/10663903) 
+- Dimensions considered: tools, training, incentives, mentors, feedback, expert involvement, policies and procedures
+- In most cases the interesting and difficult part is the 'scaling up' part!
+- Also discussed 'good enough practices in scientific computing' --- [doi.org/10.1371/journal.pcbi.1005510](https://doi.org/10.1371/journal.pcbi.1005510)
+
+<!-- and suggested interventions from [bioRxiv 2022.12.08.519666](https://www.biorxiv.org/content/10.1101/2022.12.08.519666v1) -->
+
+
+# Jo's highlights
+
+* * *
+
+### "Scaling reproducibility" influencing change workshop
+
+- Discussion-focused look at the detail of [the framework](https://zenodo.org/records/10664660)
+- Assess your org's maturity levels against different criteria:
+- 'Locus of leadership', 'Communities of Practise', 'Tools', 'Education and training', 'Incentives', 'Modelling and mentoring', 'Review and feedback', 'Expert involvement', 'Policies and procedures'
+- Helps pick where to focus effort for most payoff of impact
+- Helps map a path about where to improve, without despairing where you are now
+- Leaves you reflecting that the benefits of RSE work are more culture than code 
+
+* * *
+
+### Mutation testing - who tests the testers?
+
+- Met Office use of [mutmut](https://mutmut.readthedocs.io/en/latest/index.html) to stress their python tests
+- In essence, change the meaning of one line of code, if the tests still pass, they're weak
+- Helps think twice about what your code is doing, not only how you're testing
+- Useful for big legacy codebases as well as new work
+
+* * *
+
+### "Reproducible distributed research in practice"
+
+- Next-level approach to distributed data-versioning and workflow tools  
+- Active development by [RESIDE](https://reside-ic.github.io/) group at the MRC Centre at Imperial
+- "leans on metaphors from containerisation" - best of git, docker and `{targets}`
+- Language-agnostic, with a `[pyorderly](https://github.com/mrc-ide/pyorderly)` equivalent to R's `orderly`
+
+* * *
+
+### Special mentions!
+
+- The [YeSTEM Equity Compass](https://yestem.org/tools/the-equity-compass/) from the opening keynote
+- Early morning classes! Bhangra dancing, meditation
+- Quiet Room for neurodiverse people to decompress in
+- Lots of potential for more conversational, self-organising activity
+
+
+# Matt B's highlights
+
+* * *
+
+### Highlights
+- [Document checklist/assessment criteria](https://docs.google.com/document/d/1NuBSkRCY3wpLmuM0kGmZA8wPxTnqu4Ow6B-Ay1_vgoM/edit) and [worksheet](https://cehacuk.sharepoint.com/:x:/r/sites/ResearchSoftwareEngineeringCommunity/_layouts/15/Doc.aspx?sourcedoc=%7BCEF59DB7-CC17-4FE7-8B13-2104DBD33D3D%7D&file=Reproducibility_Assessment_Worksheet.xlsx&wdOrigin=TEAMS-MAGLEV.p2p_ns.rwc&action=default&mobileredirect=true) for where organisations are for software reproducibility (Jo already covered nicely)
+- [RO-Crate](https://www.researchobject.org/ro-crate/). A way of packaging metadata and provenance with data. Could be useful for FDRI. Follow up with a [previous assessment](https://wiki.ceh.ac.uk/display/ad/ro-crate) of it conducted in the EDS team. [(Py)orderly](https://github.com/mrc-ide/pyorderly) is in a similar space too (already covered)
+- Great conversation with friendly folk at UKAEA, have had an RSE group for \~7years, very willing to help us set up ours
+
+* * *
+
+### The importance of boilerplate code
+
+- A reminder that this code can make big impacts!
+- Tricky to install? Use a CI workflow on GH to automatically upload to pypi
+- Hard to get (small) inputs into code? Collect in a data repository and auto-download from code
+- Doesn't work in X language? Write a wrapper around the code in X language
+- Some nice things to bear in mind in our work
+
+* * *
+
+### Training resources
+
+- Some [performance and profiling training resources](https://rse.shef.ac.uk/pando-python/index.html) which are nice-to-haves, something we can point out when reviewing code, use in our best practices when developing code and fold into any training where appropriate
+- Some [testing training resources](https://github.com/abhidg/advanced-python-testing)
+- Some [FAIR4RS (FAIR for Research Software) training resources](https://carpentries-incubator.github.io/fair-research-software/00-introduction.html)
+- [Coderefinery](https://www.coderefinery.org) "bring your own classroom" approach (mentioned by Joe earlier)
+
+* * *
+
+### Working with object storage and gridded data
+- Work at NOC that has close parallels with what I am trying to do in FDRI. [Presentation](https://docs.google.com/presentation/d/18RZSS0LEIYOHK0Qhh_UWaCh00lhfXlfO/edit#slide=id.p1) here, [streamlit-based visualisation app](https://github.com/NOC-OI/class_streamlit_zarr) here, cute little command line application aiming to simplify the netcdf -> rechunk -> zarr pipeline [here](https://github.com/NOC-OI/msm-os). 
+- They also have a Data Science Platform that'd it'd be good to get to know better. Meeting being arranged! 
+
+* * *
+
+### Honourable mentions
+- [A name change policy working group](https://ncpwg.org/resources/authors/) aiming to make it easier for researchers to change their names and not be harmed by it, given academia's focus on your publishing/contribution record
+- Which was mentioned in an EEDI "Birds of a Feather" session which had lots of other great inclusivity ideas! Notes from the session to be dsitributed once anonymised.
+- The friendly and accommodating vibe!
+
+
+# Matt C's highlights
+
+* * *
+### Technical Presentations
+- Performant Python Patterns ([Robert Chisholm](https://github.com/Robadob))
+	- [Python Profiling (Carpentries)](https://rse.shef.ac.uk/pando-python/)
+	- Incredible performance of python built ins.
+- Advanced Python Testing ([Abhishek Dasgupta](https://github.com/abhidg))
+	- [`hypothesis`](https://hypothesis.works/)
+	- [`syrupy`](https://github.com/syrupy-project/syrupy)
+- Demystifying Large Language Models ([Martin O'Reilly](https://github.com/martintoreilly))
+  - Shortcomings with bias, hallucinations, snapshot in time.
+  - Dificulties in evaluating performance.
+
+* * *
+### Agile Methods for RSEs
+#### Manchester University ([Ann Gledson](https://github.com/AnnAnnFryingPan), [Adrian Harwood](https://github.com/aharwood2))
+- Manchester Universities approach to managing projects using scrum and agile.
+- Importance of being flexible and truly agile based on engagement from stakeholders.
+- Tooling based around using github with customisations.
+
+#### Alan Turing Institute ([Carlos Gavidia-Calderon](https://github.com/cptanalatriste))
+- Turing Institute's approach to agile - being adaptive based on projects.
+- Daily stand-ups difficult with researchers - weekly (focus on what's blocking).
+- Focus on what works for your team - not what other people do.
+
+* * *
+### Cookie cutters ([Carlos Martinez-Ortiz](https://github.com/c-martinez))
+- Importance of templates for helping to adopt best practise.
+- Tooling beyond [Cookie Cutters](https://www.cookiecutter.io/) like [Copier](https://copier.readthedocs.io/en/stable/) which allow options and profiles.
+- Lots of existing templates to build on / collaborate with
+	- [Materials Data Science and Informatics Template]( https://github.com/Materials-Data-Science-and-Informatics/fair-python-cookiecutter)
+	- [Alan Turing Institute Template](https://github.com/alan-turing-institute/python-project-template/tree/main)
+
+* * *
+### Other highlights
+- Keynote ([Anne-Marie Imafidon](https://aimafidon.com/about/))
+	- [Invisible Women](https://carolinecriadoperez.com/book/invisible-women/)
+- A New RSE Group - The First 100 Days ([Jo Walsh](https://github.com/metazool))
+- Weather & Climate RSE Community ([Jo Marsh Rossney](https://github.com/jmarshrossney))
+
+::: {layout-ncol=3}
+![Jo Walsh, RSECon24](../../img/jw_rsecon24.jpg)
+
+![Newcastle, RSECon24](../../img/newcastle_rsecon24.jpg)
+
+![Joe Marsh Rossney, RSECon24](../../img/jmr_rsecon24.jpg)
+:::
+
+# Useful links
+
+- Conference website: [rsecon24.society-rse.org/](https://rsecon24.society-rse.org/)
+- RSE Society youtube channel: [youtube.com/@SocRSE](https://www.youtube.com/@SocRSE/)
+- Our internal discussions: [github.com/NERC-CEH/rse_group/discussions/40](https://github.com/NERC-CEH/rse_group/discussions/40)
