@@ -1,10 +1,15 @@
 # UKCEH Research Software Engineering group
 
-This repository is a shared space for notes and guidance for the Research Software Engineering group at the UK Centre for Ecology and Hydrology
+_Please see the new [UKCEH-RSE Organisation](https://github.com/ukceh-rse) intended to replace this repository, for our notes, discussions, talks and code projects!
+
+We're still experimenting there, but plan to archive this repository._
+
+This repository is a shared space for notes and guidance for the Research Software Engineering group at the UK Centre for Ecology and Hydrology.
+
 
 # Who are we?
 
-We are the RSE team at UKCEH.   We are based in the Environmental Data Science Group, within the Pollutions Science Area at UKCEH.  We want to, and can, help with your Research Software needs all across UKCEH.  The RSE team consists of 6 people:
+We are the RSE team at UKCEH. We are based in the Environmental Data Science Group, currently within the Pollution Science Area at UKCEH.  We want to, and can, help with your Research Software needs all across UKCEH.  The RSE team consists of 6 people:
 
 * [Matt Brown](https://mattjbr123.github.io/)
 * [Jo Walsh](https://github.com/metazool/)
