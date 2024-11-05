@@ -1,8 +1,8 @@
 # UKCEH Research Software Engineering group
 
-_Please see the new [UKCEH-RSE Organisation](https://github.com/ukceh-rse) intended to replace this repository, for our notes, discussions, talks and code projects!
+_Please see the new [UKCEH-RSE Organisation](https://github.com/ukceh-rse) intended to replace this repository, for our notes, discussions, talks and code projects!_
 
-We're still experimenting there, but plan to archive this repository._
+_We're still experimenting there, but plan to archive this repository._
 
 This repository is a shared space for notes and guidance for the Research Software Engineering group at the UK Centre for Ecology and Hydrology.
 
